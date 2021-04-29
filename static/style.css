@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    margin: 0px;
+    background-color: #EEE;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.header img {
+    height: 80%;
+    display: inline-block;
+    justify-self: self-start;
+    padding: 10px;
+}
+
+.header #buttons {
+    justify-self: self-end;
+}
