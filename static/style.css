@@ -31,6 +31,14 @@
   .footer {
     display: block;
   }
+  #buttons {
+    display: none;
+  }
+  
+ #btnNav {
+   display: inline-block;
+   justify-self: self-end;
+ }
 }
 
 * {
@@ -103,6 +111,24 @@ h1 {
     text-align: center;
     text-justify: left;
 }
+
+#mobile_nav {
+  display: none;
+  position: absolute;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  top: 80px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+#mobile_nav li {
+  margin-top: 40px;
+}
+
 
 #section {
   background: #ffffff;
