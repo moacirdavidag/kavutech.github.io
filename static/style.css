@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     margin: 0px;
     background-color: #EEE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -8,11 +9,12 @@ body {
 .header {
     height: 70px;
     width: 100%;
-    border-bottom: solid 1px rgb(27, 83, 187);
+    border-bottom: solid 1px rgb(11, 37, 85);
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: white;
+    box-shadow: 3px 3px 5px 0px rgb(9 27 65 / 30%);
 }
 
 .header img {
@@ -37,7 +39,16 @@ body {
     margin: 0px 5px;
 }
 
-.header button:hover, button:focus {
+.header button:hover {
+    background-color: rgba(27, 83, 187, 0.377);
+    color: white;
+}
+
+.header button:focus {
     background-color: rgb(27, 83, 187);
     color: white;
+}
+
+.section {
+    text-align: center;
 }
