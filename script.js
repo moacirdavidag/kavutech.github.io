@@ -10,7 +10,7 @@ const contentSpace = document.getElementById("section")
 let currentPage = 1
 
 // HTML Content
-const homeHTML = `<h1>Texto de Inicio</h1>`
+// const homeHTML = `<h1>Texto de Inicio</h1>`
 const aboutHTML = `<h1>Texto de Sobre</h1>`
 const portfolioHTML = `<h1>Texto de Portfolio</h1>`
 const contactHTML = `<h1>Texto de Contato</h1>`
