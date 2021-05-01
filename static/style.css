@@ -1,11 +1,69 @@
+
+/* Adicionando responsividade para mobile */
+@media screen and (max-width: 720px) {
+  .section {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    height: auto;
+    margin: 0 auto;
+    padding: 5%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  .box_img {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .header {
+    position: fixed;
+  }
+  
+  #home_button {
+    background-color: #3D5A80;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5%;
+    font-weight: bold;
+  }
+  
+  .footer {
+    display: block;
+  }
+  #buttons {
+    display: none;
+  }
+  
+ #btnNav {
+   display: inline-block;
+   justify-self: self-end;
+ }
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: none; /* tira aquela borda feia quando a gente clica em um input ou botão */
+  text-decoration: none;
+  list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 body {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin: 0px;
     background-color: #EEE;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #293241;
 }
 
+
+h1 {
+  color: #3D5A80;
+}
 .header {
     height: 70px;
     width: 100%;
@@ -51,4 +109,50 @@ body {
 
 .section {
     text-align: center;
+    text-justify: left;
+}
+
+#mobile_nav {
+  display: none;
+  position: absolute;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  top: 80px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+#mobile_nav li {
+  margin-top: 40px;
+}
+
+
+#section {
+  background: #ffffff;
+}
+
+#home_h1 {
+  color: #293241;
+}
+
+#home_button:hover {
+  transition: 0.5s;
+  background: #EE6C4D;
+}
+
+a {
+  color: #3D5A80;
+}
+
+.footer {
+  width: 100vw;
+  background: #ffffff;
+  padding: 10%;
+}
+
+.footer li {
+  margin-top: 6px;
 }
